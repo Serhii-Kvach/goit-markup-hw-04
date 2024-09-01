@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.nav .logo {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.list-nav .link,
+.list-nav .list-link {
+  text-decoration: none;
+  list-style-type: none;
+}
+.list-address,
+.list-address .address {
+  text-decoration: none;
+  list-style-type: none;
+}
