@@ -12,6 +12,7 @@ li {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -21,7 +22,7 @@ li {
 }
 
 .header-logo .logo-part {
-  color: black;
+  color: #2e2f42;
 }
 
 .page-section-first {
@@ -31,8 +32,9 @@ li {
 .page-title {
   color: #ffffff;
   font-size: 56px;
-  line-height: 0.933;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .page-title-button {
@@ -95,6 +97,15 @@ li {
   background-color: #f4f4fd;
 }
 
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
 .team-item {
   background-color: #ffffff;
 }
@@ -114,6 +125,15 @@ li {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.projects {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .projects-name {
