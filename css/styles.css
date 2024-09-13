@@ -66,7 +66,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: block;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -106,7 +106,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: block;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -229,11 +229,15 @@ img {
   text-transform: capitalize;
   padding-top: 120px;
   padding-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-item {
   background-color: #ffffff;
   margin-bottom: 120px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .team-name {
@@ -256,7 +260,11 @@ img {
 /* =================================TEAM================================ */
 
 /* ================================PORTFOLIO============================= */
-
+.container-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projects {
   font-size: 36px;
   line-height: 1.11;
@@ -264,6 +272,22 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  max-width: 1128px;
+}
+
+.projects-item {
+  border: #e7e9fc solid 1px;
+  max-width: 360px;
+  margin-bottom: 120px;
 }
 
 .projects-name {
@@ -272,6 +296,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 .projects-type {
@@ -279,6 +306,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 /* ================================PORTFOLIO============================= */
@@ -289,8 +318,19 @@ img {
   background-color: #2e2f42;
 }
 
+.container-footer {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: flex;
+}
+
+.footer-logo {
+  max-width: 115px;
+  margin-top: 100px;
 }
 
 .footer-text {
@@ -298,6 +338,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-bottom: 100px;
 }
 
 /* ==================================FOOTER=============================== */
