@@ -267,7 +267,8 @@ img {
 /* =================================TEAM================================ */
 
 /* ================================PORTFOLIO============================= */
-.container-portfolio .projects {
+
+.projects {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
