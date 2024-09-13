@@ -45,6 +45,11 @@ img {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* =================================HEADER============================= */
 .container-header {
   display: flex;
@@ -186,6 +191,7 @@ img {
 }
 
 .benefits-item {
+  width: calc((100% - 72) / 4);
 }
 
 .benefits-subtitle {
@@ -238,6 +244,7 @@ img {
   margin-bottom: 120px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  width: calc((100% - 72) / 4);
 }
 
 .team-name {
@@ -261,10 +268,7 @@ img {
 
 /* ================================PORTFOLIO============================= */
 .container-portfolio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  
 .projects {
   font-size: 36px;
   line-height: 1.11;
@@ -281,12 +285,12 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  max-width: 1128px;
+  max-width: 1150px;
 }
 
 .projects-item {
-  border: #e7e9fc solid 1px;
-  max-width: 360px;
+  border: solid 1px #e7e9fc;
+  width: calc((100% - 48) / 6);
   margin-bottom: 120px;
 }
 
