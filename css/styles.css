@@ -52,10 +52,11 @@ img {
 
 /* =================================HEADER============================= */
 .container-header {
-  display: flex;
   border-bottom: #e7e9fc solid 1px;
-  justify-content: space-between;
-  gap: 332px;
+}
+
+.container-header-div {
+  display: flex;
 }
 
 .nav-header {
@@ -72,7 +73,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 76px;
@@ -163,10 +164,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
-  min-width: 169px
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  display: block;
 }
+
 /* ==================================HERO============================== */
 
 /* ================================BENEFITS============================= */
@@ -174,7 +177,6 @@ img {
 .page-section-two {
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 
 .visually-hidden {
@@ -305,7 +307,7 @@ img {
 }
 
 .projects-item {
-  width: calc((100% - 48px) / 3)
+  width: calc((100% - 48px) / 3);
   margin-bottom: 120px;
 }
 
@@ -322,7 +324,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-
 }
 
 .projects-type {
