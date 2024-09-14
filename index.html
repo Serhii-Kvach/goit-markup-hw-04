@@ -7,8 +7,8 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.css"
-      integrity="sha512-0P3tMnVtKaEEr+1uLJ8mk1dNNiZXbr79NYG0ubGSmvleZNmunc1sVTp6w8g7BXEuYSuoX9qN9NTihxEXb7VlpQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -23,37 +23,35 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container container-header">
-        <nav class="nav-header">
-          <a href="./index.html" class="logo header-logo"
-            >Web<span class="logo-part">Studio</span></a
-          >
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link">Studio</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <ul class="contacts-list">
-            <li class="contacts-item">
-              <a href="mailto:info@devstudio.com" class="contacts-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a href="tel:+110001111111" class="contacts-link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
+    <header class="container container-header">
+      <nav class="nav-header">
+        <a href="./index.html" class="logo header-logo"
+          >Web<span class="logo-part">Studio</span></a
+        >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+110001111111" class="contacts-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
     <main>
       <section class="section page-section-first">
@@ -110,8 +108,10 @@
                 height="260"
                 alt="Mark Guerrero"
               />
-              <h3 class="team-name">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-card">
+                <h3 class="team-name">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -120,8 +120,10 @@
                 height="260"
                 alt="Tom Ford"
               />
-              <h3 class="team-name">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-card">
+                <h3 class="team-name">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -130,8 +132,10 @@
                 height="260"
                 alt="Camila Garcia"
               />
-              <h3 class="team-name">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-card">
+                <h3 class="team-name">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -140,13 +144,15 @@
                 height="260"
                 alt="Daniel Wilson"
               />
-              <h3 class="team-name">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-card">
+                <h3 class="team-name">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="page-section-four">
         <div class="container container-portfolio">
           <h2 class="projects">Our Portfolio</h2>
           <ul class="projects-list">
@@ -157,8 +163,10 @@
                 width="360"
                 height="300"
               />
+             <div class="projects-card">
               <h3 class="projects-name">Banking App</h3>
               <p class="projects-type">App</p>
+             </div>
             </li>
             <li class="projects-item">
               <img
@@ -167,8 +175,10 @@
                 width="360"
                 height="300"
               />
+             <div class="projects-card">
               <h3 class="projects-name">Cashless Payment</h3>
               <p class="projects-type">Marketing</p>
+             </div>
             </li>
             <li class="projects-item">
               <img
@@ -177,8 +187,10 @@
                 width="360"
                 height="300"
               />
+             <div class="projects-card">
               <h3 class="projects-name">Meditation App</h3>
               <p class="projects-type">App</p>
+             </div>
             </li>
             <li class="projects-item">
               <img
@@ -187,8 +199,10 @@
                 width="360"
                 height="300"
               />
+             <div class="projects-card">
               <h3 class="projects-name">Taxi Service</h3>
               <p class="projects-type">Marketing</p>
+             </div>
             </li>
             <li class="projects-item">
               <img
@@ -197,8 +211,10 @@
                 width="360"
                 height="300"
               />
+             <div class="projects-card">
               <h3 class="projects-name">Screen Illustrations</h3>
               <p class="projects-type">Design</p>
+             </div>
             </li>
             <li class="projects-item">
               <img
@@ -207,8 +223,10 @@
                 width="360"
                 height="300"
               />
+             <div class="projects-card">
               <h3 class="projects-name">Online Courses</h3>
               <p class="projects-type">Marketing</p>
+             </div>
             </li>
           </ul>
         </div>
