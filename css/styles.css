@@ -61,7 +61,6 @@ img {
 
 .nav-header {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -101,7 +100,6 @@ img {
 
 .contacts {
   font-style: normal;
-  display: flex;
 }
 
 .contacts-list {
