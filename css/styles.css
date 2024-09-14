@@ -342,11 +342,6 @@ img {
   padding-bottom: 100px;
 }
 
-.container-footer {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-logo .logo-part {
   color: #f4f4fd;
   display: inline-block;
