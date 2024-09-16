@@ -263,6 +263,7 @@ img {
 
 .team-card {
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .team-name {
@@ -281,10 +282,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-}
-
-.team-img {
-  margin-bottom: 32px;
 }
 
 /* =================================TEAM================================ */
