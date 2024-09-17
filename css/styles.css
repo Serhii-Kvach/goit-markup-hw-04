@@ -155,9 +155,22 @@ img {
 }
 
 .page-section-first {
-  background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/backgroundhero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .page-title {
@@ -187,6 +200,7 @@ img {
   height: 56px;
   border-radius: 4px;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ==================================HERO============================== */
@@ -219,6 +233,23 @@ img {
 
 .benefits-item {
   width: calc((100% - 72) / 4);
+}
+
+.benefits-list-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-item-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 .benefits-subtitle {
