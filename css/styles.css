@@ -416,7 +416,8 @@ img {
   height: 100%;
   background-color: #4d5ae5;
   overflow: auto;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #f4f4fd;
   padding-top: 40px;
   padding-left: 32px;
@@ -448,11 +449,14 @@ img {
   color: #434455;
 }
 
-.projects-item:hover .overlay-projects,
-.projects-item:focus .overlay-projects {
+.projects-item:hover .overlay-projects {
   transform: translateY(0%);
 }
 
+.projects-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 /* ================================PORTFOLIO============================= */
 
 /* ================================FOOTER================================ */
