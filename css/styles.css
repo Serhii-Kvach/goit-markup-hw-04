@@ -401,6 +401,7 @@ img {
   width: calc((100% - 48px) / 3);
   height: calc((100% - 48px) / 1);
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-img {
@@ -416,8 +417,7 @@ img {
   height: 100%;
   background-color: #4d5ae5;
   overflow: auto;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #f4f4fd;
   padding-top: 40px;
   padding-left: 32px;
