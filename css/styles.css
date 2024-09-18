@@ -404,10 +404,8 @@ img {
 }
 
 .projects-img {
+  display: flex;
   position: relative;
-}
-
-.overlay-projects {
   overflow: hidden;
 }
 
@@ -417,7 +415,6 @@ img {
   letter-spacing: 0.02em;
   position: absolute;
   top: 0px;
-  left: 0px;
   transform: translateY(100%);
   width: 100%;
   height: 100%;
@@ -426,15 +423,14 @@ img {
   overflow: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px 32px;
+  margin: 0;
 }
 
 .projects-card {
-  position: relative;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   background-color: #ffffff;
-  z-index: 5;
 }
 
 .projects-name {
